@@ -1,0 +1,20 @@
+.card {
+  border-radius: 8px;
+  background-color: var(--color-block);
+}
+
+.img {
+  height: 148px;
+  border-radius: 8px 8px 0 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info {
+  padding: 8px;
+}
+
+.info__name {
+  margin-bottom: 4px;
+}

@@ -1,0 +1,10 @@
+.container {
+  padding: 24px;
+}
+
+.lounge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
