@@ -8,5 +8,25 @@ export const loungesMock: LoungeApi[] = [
   {
     address: 'Мучной переулок, 2 лит Г',
     name: 'Особняк Залы Зодчих',
-  }
+  },
+  {
+    address: 'Есенина, 1 к1',
+    name: 'Afk lounge bar',
+  },
+  {
+    address: 'Мучной переулок, 2 лит Г',
+    name: 'Особняк Залы Зодчих',
+  },
+  {
+    address: 'Есенина, 1 к1',
+    name: 'Afk lounge bar',
+  },
+  {
+    address: 'Мучной переулок, 2 лит Г',
+    name: 'Особняк Залы Зодчих',
+  },
+  {
+    address: 'Есенина, 1 к1',
+    name: 'Afk lounge bar',
+  },
 ];

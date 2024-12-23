@@ -10,6 +10,8 @@ export function LoungeCard({ lounge }: LoungeCardProps): JSX.Element {
   return (
     <div className={styles.card}>
       <div
+        role='img'
+        aria-label='lounge thumbnail'
         className={styles.img}
         style={{
           backgroundImage: `url('${imageUrl}')`

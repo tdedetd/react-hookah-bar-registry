@@ -1,5 +1,9 @@
 .container {
+  margin: 0 auto;
   padding: 24px;
+
+  /* TODO: -xlg move to breakpoints */
+  max-width: 1400px;
 }
 
 .lounge-list {
@@ -7,4 +11,25 @@
   flex-direction: column;
   gap: 16px;
   list-style: none;
+}
+
+/* TODO: -md move to breakpoints */
+@media (min-width: 768px) {
+  .lounge-list {
+    display: grid;
+  }
+}
+
+/* TODO: -md move to breakpoints */
+@media (min-width: 768px) {
+  .lounge-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* TODO: -lg move to breakpoints */
+@media (min-width: 1200px) {
+  .lounge-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

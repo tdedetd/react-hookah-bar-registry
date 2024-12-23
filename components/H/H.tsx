@@ -15,7 +15,7 @@ const tagMapper: Record<HPropsTag, (children: ReactNode, className: string) => J
 
 export function H({ children, level, tag, className = '' }: HProps): JSX.Element {
   const tagKey = tag ?? `h${level}`;
-  const headerClassName = classNames(styles.h, styles[`h${level}`], className);
+  const headerClassName = classNames(...[styles.h, styles[`h${level}`], className].filter(Boolean));
 
   return tagMapper[tagKey](children, headerClassName);
 }
